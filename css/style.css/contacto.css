@@ -1,0 +1,22 @@
+main {
+  height: 75vh;
+}
+main .animate__fadeInRight {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+main section div div ul li a:link {
+  color: #d10293;
+  background-color: transparent;
+  text-decoration: none;
+}
+main section div div ul li a:hover {
+  color: #770055;
+  background-color: transparent;
+  text-decoration: underline;
+}
+main section div div ul li a:active {
+  color: #db099c;
+  background-color: transparent;
+  text-decoration: underline;
+}/*# sourceMappingURL=contacto.css.map */

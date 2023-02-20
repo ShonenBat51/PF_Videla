@@ -8,6 +8,13 @@ header nav .animate__pulse {
 header nav div #fuentecolorfuerte {
   color: #ff00b3;
 }
+@media screen and (max-width: 576px) {
+  header nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 header nav div .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
@@ -54,7 +61,22 @@ footer {
   border-top: 1px solid rgb(255, 255, 255);
 }
 footer ul #fuentecolorclaro {
-  color: rgb(51, 51, 51);
+  color: rgb(179, 179, 179);
+}
+footer ul #fuentecolorclaro div a:link {
+  color: #d10293;
+  background-color: transparent;
+  text-decoration: none;
+}
+footer ul #fuentecolorclaro div a:hover {
+  color: #770055;
+  background-color: transparent;
+  text-decoration: underline;
+}
+footer ul #fuentecolorclaro div a:active {
+  color: #db099c;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 main {
@@ -164,14 +186,6 @@ main section div div .badgebutton:hover {
   background-color: #7e0158;
 }
 
-footer {
-  height: 5vh;
-  border-top: 1px solid rgb(255, 255, 255);
-}
-footer ul #fuentecolorclaro {
-  color: rgb(51, 51, 51);
-}
-
 main article ul li .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -184,4 +198,27 @@ main article ul li .nav-link {
 main div .flotante {
   position: fixed;
   margin-right: 2rem;
+}
+
+main {
+  height: 75vh;
+}
+main .animate__fadeInRight {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+main section div div ul li a:link {
+  color: #d10293;
+  background-color: transparent;
+  text-decoration: none;
+}
+main section div div ul li a:hover {
+  color: #770055;
+  background-color: transparent;
+  text-decoration: underline;
+}
+main section div div ul li a:active {
+  color: #db099c;
+  background-color: transparent;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

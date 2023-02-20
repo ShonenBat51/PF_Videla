@@ -4,50 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto Personal">
+    <meta name="keywords" content="contacto, red social, linkedin, whatsapp, correo">
+    <link
+    rel="shortcut icon"
+    href="../assets/favicon.ico"
+    type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="../css/style.css/style.css">
     <title>Contacto</title>
 </head>
 <link rel="stylesheet" href="../css/styles.css">
 <title>AV Portfolio</title>
 </head>
-<body>
-<header> <h4>Contacto</h4></header>
-<nav>
-<ul>
-    <list><a href="../index.html">Home</a></list>
-    <list><a href="./proyectos.html">Proyectos</a></list>
-    <list><a href="./resumen.html">Resumen</a></list>
-    <list><a>Contacto</a></list>
-</ul>
-</nav>
+<body class="bg-black">
+    <header class="container-fluid bg-light"> 
+        <nav class="row h-100 align-content-center">
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-center align-content-center bg-light fs-3 fw-semibold h-50 animate__animated animate__pulse animate__infinite"> <a id="fuentecolorfuerte">a</a><a>lejandro videl</a><a id="fuentecolorfuerte">a <em>portfolio</em></a></div>
+    
+            <div class="col-sm-12 col-lg-8 h-50 align-items-center">
+                <ul class="nav d-flex justify-content-sm-center justify-content-lg-end bg-light">
+                    <li id= margen_negro_der class="nav-item ">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li id= margen_negro_der class="nav-item">
+                      <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                    </li>
+                    <li id= margen_negro_der class="nav-item">
+                      <a class="nav-link" href="./resumen.html">Resumen</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="./contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
 
-    <p> <a id="Contactame" href="https://www.linkedin.com/in/alejandro-videla-torres/" target="_blank">Visita mi Linkedin/<strong>Alejandro_Videla</strong> </a> </p>
-<ul id="formu" >
-    <form action="" method="post">
-        <li><div>     <label for="nombre">Nombre</label></li>
-        <li><input type="text" name="" id="nombre" placeholder="Nombre Apellido" size="51"></div></li>
-        <li></li>
-        <li><div>        <label for="empresa">Empresa o Institución</label></li>
-        <li><input type="text" name="" id="empresa" placeholder="ABC Institución" size="51"></div></li>
-        <li></li>
-        <li><div>        <label for="correo">Correo de Contacto</label></li>
-        <li><input type="text" name="" id="correo" required placeholder="user@mail.com" size="51"></div></li>
+<main class="h-auto">
+<section class="text-light animate__animated animate__fadeInRight animate__delay-1s">
+    <div class="container">
+    <h2 class="font-weight-bold text-center my-3 text">Contáctame</h2>
+    <p class="text-center mb-5">Como diseñador profesional, combino la experiencia de gestión de proyectos con diversas metodologías de diseño y agile para encontrar un equilibrio adecuado entre creatividad y sentido comercial.
+    </p>
+    </div>
+    <div class="row container mx-auto">
+        <div class="col-md-9 mb-5">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-3">
+                            <input type="text" id="name" class="form-control">
+                            <label for="name" class="">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-3">
+                            <input type="text" id="email" class="form-control">
+                            <label for="email" class="">Correo</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-3">
+                            <input type="text" id="subject" class="form-control">
+                            <label for="subject" class="">Asunto</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
 
-
-        <li></li>
-        <p>Envíe su Mensaje</p>
-<textarea name="" id="cuadrotexto" cols="50" rows="6"></textarea>
-        <div>
-<input id="enviar" type="submit" value=Enviar />
-<input id="reset" type="reset" value=Limpiar />
+                        <div class="md-form">
+                            <textarea type="text" id="message" class="form-control md-textarea"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="text-center">
+                <a type="submit" class="btn btn-light">Enviar</a>
+            </div>
         </div>
-    </form>
-</ul>
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled">
+                <li>
+                    <p>Santiago, RM, Chile 2023</p>
+                </li>
+                <li>
+                    <p>+56 9 9351 9284</p>
+                </li>
+                <li class="mb-4">
+                    <a href="mailto:alejandro.videla.t@gmail.com">alejandro.videla.t@gmail.com</a>
+                </li>
+                <div class="container mb-4">
+                    <a href="http://wa.me/+56993519284"><img src="../images/whatsapp.png"></a>
+                    <a href="https://www.linkedin.com/in/alejandro-videla-torres/"><img src="../images/linkedin.png"></a>
+                    <a href="https://www.behance.net/alejandro_videla"><img src="../images/behance.png"></a>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+
+</section>
+</main>
+
+<footer class="container-fluid">
+    <ul class="row bg-black">
+        <div id="fuentecolorclaro">Diseñador y Programado por Alejandro Videla - 2023<div>
+        <div id="fuentecolorclaro"><a href=mailto:alejandro.videla.t@gmail.com>Contacto: Alejandro.videla.t@gmail.com</a></div>
+    </ul> 
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <ul>
-    <li>Diseñador por: Alejandro Videla</li>
-    <li>Programado por: Alejandro Videla</li>
-    <li>Santiago de Chile, 2023</li>
-    <li><a href=mailto:alejandro.videla.t@gmail.com>Contacto: Alejandro.videla.t@gmail.com</a></li>
-</ul> </footer>
 </html>

@@ -4,7 +4,26 @@ footer {
     ul {
 
         #fuentecolorclaro {
-            color:rgb(51, 51, 51);
+            color:rgb(179, 179, 179);
+            div {
+                    a:link {
+                        color: #d10293;
+                        background-color: transparent;
+                        text-decoration: none;
+                      }
+
+                      a:hover {
+                        color: #770055;
+                        background-color: transparent;
+                        text-decoration: underline;
+                      }
+                      a:active {
+                        color: #db099c;
+                        background-color: transparent;
+                        text-decoration: underline;
+                    
+                }
+            }
         }
     }
 }

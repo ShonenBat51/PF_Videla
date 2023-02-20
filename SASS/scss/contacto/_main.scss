@@ -1,0 +1,33 @@
+main {
+    height: 75vh;
+    .animate__fadeInRight {
+        animation-duration: 1s;
+      }
+      section {
+        div {
+            div {
+                ul {
+                    li {
+                        a:link {
+                            color: #d10293;
+                            background-color: transparent;
+                            text-decoration: none;
+                          }
+    
+                          a:hover {
+                            color: #770055;
+                            background-color: transparent;
+                            text-decoration: underline;
+                          }
+                          a:active {
+                            color: #db099c;
+                            background-color: transparent;
+                            text-decoration: underline;
+                        
+                    }
+                    }
+                }
+            }
+        }
+      }
+   }
